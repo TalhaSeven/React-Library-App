@@ -17,7 +17,6 @@ const Home = () => {
   const getBooks = async () => {
     try {
       let { data } = await axios(url);
-      // console.log(data.items);
       setBookData(data.items);
     } catch (error) {
       console.log(error);

@@ -12,7 +12,7 @@ import { iconData } from "../../helper/iconData";
 const About = () => {
   return (
     <AboutContainer>
-      <ProfileImg src={profile} alt="salih" />
+      <ProfileImg src={profile} alt="talha" />
       <InfoContainer>
         <h2>Hi, I'm Talha</h2>
         <h3>I’m currently learning FrontEnd Development Languages.</h3>

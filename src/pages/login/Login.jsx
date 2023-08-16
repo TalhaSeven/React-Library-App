@@ -12,8 +12,8 @@ const Login = ({ setCurrentUser }) => {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    setCurrentUser("salih");
-    sessionStorage.setItem("user", "salih");
+    setCurrentUser("talha");
+    sessionStorage.setItem("user", "talha");
     navigate(-1);
   };
 
